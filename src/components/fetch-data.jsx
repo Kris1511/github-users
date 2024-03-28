@@ -29,7 +29,7 @@ const FetchData = () => {
               <img src={avatar_url} alt={login} />
               <div>
                 <h5>{login}</h5>
-                <a href={html_url}>Profile</a>
+                <a href={html_url} target="_blank">Profile</a>
               </div>
             </li>
           );
